@@ -24,7 +24,7 @@ FROM provincias p
 JOIN vab_provincial v ON p.id_provincia = v.id_provincia
 JOIN departamentos d ON p.id_provincia = d.id_provincia
 JOIN escuelas_infraestructura ei ON d.id_departamento = ei.id_departamento
-WHERE v.anio = 2024 -- Podés cambiar el año según tus datos
+WHERE v.anio = 2021 -- Podés cambiar el año según tus datos
 GROUP BY p.nombre, v.anio, v.valor_miles_pesos
 ORDER BY v.valor_miles_pesos DESC;
 
