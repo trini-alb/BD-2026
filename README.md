@@ -145,6 +145,8 @@ tp-etl-datos-publicos/
 
 ## Diseño Entidad-Relación
 
+![Diagrama Entidad Relación](./img/Diagrama%20DER.jpg)
+
 Se diseñó un esquema relacional normalizado para permitir:
 
 - Integridad referencial.
